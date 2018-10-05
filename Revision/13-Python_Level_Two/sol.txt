@@ -1,0 +1,1295 @@
+Welcome to War, let's begin...
+Creating New Ordered Deck
+Shuffling Deck
+What is your name player? It is time for a new round!
+Here are the current standings: 
+Aravind count: 26
+computer count: 26
+Both players play a card!
+
+
+computer has placed: ('H', '3')
+
+
+Aravind has placed: ('H', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 27
+computer count: 25
+Both players play a card!
+
+
+computer has placed: ('C', '5')
+
+
+Aravind has placed: ('H', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 28
+computer count: 24
+Both players play a card!
+
+
+computer has placed: ('H', '5')
+
+
+Aravind has placed: ('H', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 29
+computer count: 23
+Both players play a card!
+
+
+computer has placed: ('S', '2')
+
+
+Aravind has placed: ('H', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 30
+computer count: 22
+Both players play a card!
+
+
+computer has placed: ('S', '7')
+
+
+Aravind has placed: ('H', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 31
+computer count: 21
+Both players play a card!
+
+
+computer has placed: ('H', 'Q')
+
+
+Aravind has placed: ('H', '9')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 30
+computer count: 22
+Both players play a card!
+
+
+computer has placed: ('H', '9')
+
+
+Aravind has placed: ('S', '7')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 29
+computer count: 23
+Both players play a card!
+
+
+computer has placed: ('S', '7')
+
+
+Aravind has placed: ('S', '2')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 28
+computer count: 24
+Both players play a card!
+
+
+computer has placed: ('S', '2')
+
+
+Aravind has placed: ('H', '5')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 29
+computer count: 23
+Both players play a card!
+
+
+computer has placed: ('S', '7')
+
+
+Aravind has placed: ('H', '5')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 28
+computer count: 24
+Both players play a card!
+
+
+computer has placed: ('H', '5')
+
+
+Aravind has placed: ('S', '2')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 27
+computer count: 25
+Both players play a card!
+
+
+computer has placed: ('S', '2')
+
+
+Aravind has placed: ('C', '5')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 28
+computer count: 24
+Both players play a card!
+
+
+computer has placed: ('H', '5')
+
+
+Aravind has placed: ('C', '5')
+
+
+We have a match, time for war!
+Each player removes 3 cards 'face down' and then one card face up
+computer has placed: ('D', 'K')
+
+
+Aravind has placed: ('H', 'J')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 23
+computer count: 29
+Both players play a card!
+
+
+computer has placed: ('H', 'J')
+
+
+Aravind has placed: ('C', 'J')
+
+
+We have a match, time for war!
+Each player removes 3 cards 'face down' and then one card face up
+computer has placed: ('S', '7')
+
+
+Aravind has placed: ('C', '2')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 18
+computer count: 34
+Both players play a card!
+
+
+computer has placed: ('C', '2')
+
+
+Aravind has placed: ('C', '10')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 19
+computer count: 33
+Both players play a card!
+
+
+computer has placed: ('S', '7')
+
+
+Aravind has placed: ('C', '10')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 20
+computer count: 32
+Both players play a card!
+
+
+computer has placed: ('H', '9')
+
+
+Aravind has placed: ('C', '10')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 21
+computer count: 31
+Both players play a card!
+
+
+computer has placed: ('H', 'Q')
+
+
+Aravind has placed: ('C', '10')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 20
+computer count: 32
+Both players play a card!
+
+
+computer has placed: ('C', '10')
+
+
+Aravind has placed: ('H', '9')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 19
+computer count: 33
+Both players play a card!
+
+
+computer has placed: ('H', '9')
+
+
+Aravind has placed: ('S', '7')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 18
+computer count: 34
+Both players play a card!
+
+
+computer has placed: ('S', '7')
+
+
+Aravind has placed: ('C', '2')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 17
+computer count: 35
+Both players play a card!
+
+
+computer has placed: ('C', '2')
+
+
+Aravind has placed: ('D', '2')
+
+
+We have a match, time for war!
+Each player removes 3 cards 'face down' and then one card face up
+computer has placed: ('H', 'Q')
+
+
+Aravind has placed: ('C', 'A')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 22
+computer count: 30
+Both players play a card!
+
+
+computer has placed: ('D', 'K')
+
+
+Aravind has placed: ('C', 'A')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 23
+computer count: 29
+Both players play a card!
+
+
+computer has placed: ('D', 'A')
+
+
+Aravind has placed: ('C', 'A')
+
+
+We have a match, time for war!
+Each player removes 3 cards 'face down' and then one card face up
+computer has placed: ('H', 'J')
+
+
+Aravind has placed: ('H', '9')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 18
+computer count: 34
+Both players play a card!
+
+
+computer has placed: ('H', '9')
+
+
+Aravind has placed: ('S', '7')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 17
+computer count: 35
+Both players play a card!
+
+
+computer has placed: ('S', '7')
+
+
+Aravind has placed: ('S', 'Q')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 18
+computer count: 34
+Both players play a card!
+
+
+computer has placed: ('H', '9')
+
+
+Aravind has placed: ('S', 'Q')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 19
+computer count: 33
+Both players play a card!
+
+
+computer has placed: ('H', 'J')
+
+
+Aravind has placed: ('S', 'Q')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 20
+computer count: 32
+Both players play a card!
+
+
+computer has placed: ('C', 'J')
+
+
+Aravind has placed: ('S', 'Q')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 21
+computer count: 31
+Both players play a card!
+
+
+computer has placed: ('H', '2')
+
+
+Aravind has placed: ('S', 'Q')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 22
+computer count: 30
+Both players play a card!
+
+
+computer has placed: ('H', '7')
+
+
+Aravind has placed: ('S', 'Q')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 23
+computer count: 29
+Both players play a card!
+
+
+computer has placed: ('C', '10')
+
+
+Aravind has placed: ('S', 'Q')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 24
+computer count: 28
+Both players play a card!
+
+
+computer has placed: ('H', 'Q')
+
+
+Aravind has placed: ('S', 'Q')
+
+
+We have a match, time for war!
+Each player removes 3 cards 'face down' and then one card face up
+computer has placed: ('D', '9')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 29
+computer count: 23
+Both players play a card!
+
+
+computer has placed: ('H', '3')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 30
+computer count: 22
+Both players play a card!
+
+
+computer has placed: ('S', '2')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 31
+computer count: 21
+Both players play a card!
+
+
+computer has placed: ('C', '5')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 32
+computer count: 20
+Both players play a card!
+
+
+computer has placed: ('H', '5')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 33
+computer count: 19
+Both players play a card!
+
+
+computer has placed: ('S', '9')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 34
+computer count: 18
+Both players play a card!
+
+
+computer has placed: ('C', '4')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 35
+computer count: 17
+Both players play a card!
+
+
+computer has placed: ('D', '7')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 36
+computer count: 16
+Both players play a card!
+
+
+computer has placed: ('C', '8')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 37
+computer count: 15
+Both players play a card!
+
+
+computer has placed: ('S', '3')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 38
+computer count: 14
+Both players play a card!
+
+
+computer has placed: ('D', '8')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 39
+computer count: 13
+Both players play a card!
+
+
+computer has placed: ('D', '6')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 40
+computer count: 12
+Both players play a card!
+
+
+computer has placed: ('H', '4')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 41
+computer count: 11
+Both players play a card!
+
+
+computer has placed: ('S', '8')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 42
+computer count: 10
+Both players play a card!
+
+
+computer has placed: ('D', '5')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 43
+computer count: 9
+Both players play a card!
+
+
+computer has placed: ('H', 'A')
+
+
+Aravind has placed: ('C', 'J')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 42
+computer count: 10
+Both players play a card!
+
+
+computer has placed: ('C', 'J')
+
+
+Aravind has placed: ('D', '5')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 41
+computer count: 11
+Both players play a card!
+
+
+computer has placed: ('D', '5')
+
+
+Aravind has placed: ('S', '8')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 42
+computer count: 10
+Both players play a card!
+
+
+computer has placed: ('C', 'J')
+
+
+Aravind has placed: ('S', '8')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 41
+computer count: 11
+Both players play a card!
+
+
+computer has placed: ('S', '8')
+
+
+Aravind has placed: ('D', '5')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 40
+computer count: 12
+Both players play a card!
+
+
+computer has placed: ('D', '5')
+
+
+Aravind has placed: ('H', '4')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 39
+computer count: 13
+Both players play a card!
+
+
+computer has placed: ('H', '4')
+
+
+Aravind has placed: ('D', '6')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 40
+computer count: 12
+Both players play a card!
+
+
+computer has placed: ('D', '5')
+
+
+Aravind has placed: ('D', '6')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 41
+computer count: 11
+Both players play a card!
+
+
+computer has placed: ('S', '8')
+
+
+Aravind has placed: ('D', '6')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 40
+computer count: 12
+Both players play a card!
+
+
+computer has placed: ('D', '6')
+
+
+Aravind has placed: ('D', '5')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 39
+computer count: 13
+Both players play a card!
+
+
+computer has placed: ('D', '5')
+
+
+Aravind has placed: ('H', '4')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 38
+computer count: 14
+Both players play a card!
+
+
+computer has placed: ('H', '4')
+
+
+Aravind has placed: ('D', '8')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 39
+computer count: 13
+Both players play a card!
+
+
+computer has placed: ('D', '5')
+
+
+Aravind has placed: ('D', '8')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 40
+computer count: 12
+Both players play a card!
+
+
+computer has placed: ('D', '6')
+
+
+Aravind has placed: ('D', '8')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 41
+computer count: 11
+Both players play a card!
+
+
+computer has placed: ('S', '8')
+
+
+Aravind has placed: ('D', '8')
+
+
+We have a match, time for war!
+Each player removes 3 cards 'face down' and then one card face up
+computer has placed: ('C', '7')
+
+
+Aravind has placed: ('S', '3')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 36
+computer count: 16
+Both players play a card!
+
+
+computer has placed: ('S', '3')
+
+
+Aravind has placed: ('C', '8')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 37
+computer count: 15
+Both players play a card!
+
+
+computer has placed: ('C', '7')
+
+
+Aravind has placed: ('C', '8')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 38
+computer count: 14
+Both players play a card!
+
+
+computer has placed: ('S', '6')
+
+
+Aravind has placed: ('C', '8')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 39
+computer count: 13
+Both players play a card!
+
+
+computer has placed: ('H', 'A')
+
+
+Aravind has placed: ('C', '8')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 38
+computer count: 14
+Both players play a card!
+
+
+computer has placed: ('C', '8')
+
+
+Aravind has placed: ('S', '6')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 37
+computer count: 15
+Both players play a card!
+
+
+computer has placed: ('S', '6')
+
+
+Aravind has placed: ('C', '7')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 38
+computer count: 14
+Both players play a card!
+
+
+computer has placed: ('C', '8')
+
+
+Aravind has placed: ('C', '7')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 37
+computer count: 15
+Both players play a card!
+
+
+computer has placed: ('C', '7')
+
+
+Aravind has placed: ('S', '6')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 36
+computer count: 16
+Both players play a card!
+
+
+computer has placed: ('S', '6')
+
+
+Aravind has placed: ('S', '3')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 35
+computer count: 17
+Both players play a card!
+
+
+computer has placed: ('S', '3')
+
+
+Aravind has placed: ('D', '7')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 36
+computer count: 16
+Both players play a card!
+
+
+computer has placed: ('S', '6')
+
+
+Aravind has placed: ('D', '7')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 37
+computer count: 15
+Both players play a card!
+
+
+computer has placed: ('C', '7')
+
+
+Aravind has placed: ('D', '7')
+
+
+We have a match, time for war!
+Each player removes 3 cards 'face down' and then one card face up
+computer has placed: ('H', '4')
+
+
+Aravind has placed: ('S', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 42
+computer count: 10
+Both players play a card!
+
+
+computer has placed: ('D', '5')
+
+
+Aravind has placed: ('S', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 43
+computer count: 9
+Both players play a card!
+
+
+computer has placed: ('D', '6')
+
+
+Aravind has placed: ('S', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 44
+computer count: 8
+Both players play a card!
+
+
+computer has placed: ('D', '8')
+
+
+Aravind has placed: ('S', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 45
+computer count: 7
+Both players play a card!
+
+
+computer has placed: ('S', '8')
+
+
+Aravind has placed: ('S', '9')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 46
+computer count: 6
+Both players play a card!
+
+
+computer has placed: ('D', '10')
+
+
+Aravind has placed: ('S', '9')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 45
+computer count: 7
+Both players play a card!
+
+
+computer has placed: ('S', '9')
+
+
+Aravind has placed: ('S', '8')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 44
+computer count: 8
+Both players play a card!
+
+
+computer has placed: ('S', '8')
+
+
+Aravind has placed: ('D', '8')
+
+
+We have a match, time for war!
+Each player removes 3 cards 'face down' and then one card face up
+computer has placed: ('C', '6')
+
+
+Aravind has placed: ('C', 'J')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 49
+computer count: 3
+Both players play a card!
+
+
+computer has placed: ('D', 'Q')
+
+
+Aravind has placed: ('C', 'J')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 48
+computer count: 4
+Both players play a card!
+
+
+computer has placed: ('C', 'J')
+
+
+Aravind has placed: ('C', '6')
+
+
+computer has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 47
+computer count: 5
+Both players play a card!
+
+
+computer has placed: ('C', '6')
+
+
+Aravind has placed: ('C', 'K')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 48
+computer count: 4
+Both players play a card!
+
+
+computer has placed: ('C', 'J')
+
+
+Aravind has placed: ('C', 'K')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 49
+computer count: 3
+Both players play a card!
+
+
+computer has placed: ('D', 'Q')
+
+
+Aravind has placed: ('C', 'K')
+
+
+Aravind has the higher card, adding to hand.
+It is time for a new round!
+Here are the current standings: 
+Aravind count: 50
+computer count: 2
+Both players play a card!
+
+
+computer has placed: ('S', 'K')
+
+
+Aravind has placed: ('C', 'K')
+
+
+We have a match, time for war!
+Each player removes 3 cards 'face down' and then one card face up
+computer has placed: ('C', '9')
+
+
+Aravind has placed: ('D', '10')
+
+
+Aravind has the higher card, adding to hand.
+Great Game, it lasted: 87
+A war occured 9 times.

@@ -1,0 +1,26 @@
+body{
+  /*background: gray;*/
+  background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=350);
+  background-repeat:no-repeat;
+  /* bg size: x,y*/
+  background-size: 100% 900px;
+  /*does not cover full length*/
+  /*background-size: 100% 100%;*/
+}
+
+div{
+  background: blue;
+  border: orange;
+  border-width: thick; /* 10 px */
+  border-style: dotted;
+  /*border: thick orange dotted;*/
+
+  }
+
+p{
+  color: yellow;
+}
+span{
+  background: red;
+  color: black;
+}
