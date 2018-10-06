@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
+  </head>
+  <body>
+
+    <h1>Webpage lists :</h1>
+
+    <div class="django2">
+
+      {% if access_records %} <!-- if statement in template tagging -->
+
+        <table>
+          <thead>
+            <th>Site Name</th>
+            <th>Date Accessed</th>
+          </thead>
+
+          {% for acc in access_records %} <!-- for statement in template tagging -->
+          <tr>
+            <td>{{ acc.name }}</td> <!-- look at Access_record class in models.py for field names -->
+            <td>{{ acc.date }}</td>
+          </tr>
+          {% endfor %}
+
+        </table>
+
+      {% endif %}
+
+
+    </div>
+
+  </body>
+</html>
