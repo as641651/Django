@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>URL template</title>
+  </head>
+  <body>
+    <h1>Relative URL template</h1>
+    <!--  url 'app_name:url_name'  -->
+    <!-- make sure to have no spaces between '' -->
+    <a href="{% url 'Application4:other_p' %}">template tagged link to Other</a>
+    <p></p>
+    <!-- index page of admin/ is under application 'admin'. Migrate first to use this link -->
+    <a href="{% url 'admin:index' %}">template tagged link to Admin page</a>
+    <p></p>
+    <!-- link to homepage -->
+    <a href="{% url 'index' %}">template tagged link to Index</a>
+  </body>
+</html>

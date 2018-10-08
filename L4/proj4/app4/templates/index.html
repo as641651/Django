@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- doctype is important while inheriting -->
+
+<!-- inherited file -->
+<!-- should point to the file from TEMPLATE_DIR! not the URL -->
+{% extends "base.html" %}
+
+<!-- Anything inside this block will correspond to location of this block in base.html -->
+  {% block body_block %}
+    <div style="margin-bottom:60px;"></div>
+    <div class="jumbotron">
+      <h1>Welcome</h1>
+    </div>
+
+    <div class="container">
+      It is advisable to use template tagged URLS. Otherwise, if you want to change the URL name in the future, you have to change the names in all the views and HTML files!
+      <a href="app4/relative">Relative links</a>
+      <p></p>
+
+      <h2>Template filter demonstration</h2>
+      <!-- change text to upper case -->
+      <p>{{text | upper}}</p>
+      <!-- add on to a number -->
+      <p>{{number | add:"99"}}</p>
+
+      <!-- writing custom templates -->
+      <!-- the operation can be specified in a .py file under 'templatetags' directory in app folder -->
+
+      <!-- load the filter -->
+      {% load my_extras %}
+      <!-- text | filter_name:filter_arg -->
+      <p>{{text | cut:'hello'}}</p>
+      <!-- applying multiple filters -->
+      <p>{{input.name | add_placeholder:"Name" | add_class:"form-control"}}</p>
+
+    </div>
+  {% endblock %}
