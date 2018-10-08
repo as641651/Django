@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+
+      <div class="jumbotron">
+        <h1>Form Page</h1>
+      </div>
+
+      <div class="container">
+
+        <h1>Fill out the form</h1>
+
+        <form method="post">
+          {{form.as_p}}
+          <!-- form.as_p renders the fields in separate lines -->
+
+          {% csrf_token %}
+          <!-- This is a security token, without which the form breaks -->
+
+          <input type="submit" class="btn btn-primary" value="Submit">
+
+        </form>
+
+      </div>
+  </body>
+</html>
