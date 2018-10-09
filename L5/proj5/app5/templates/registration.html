@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title_block %}
+<title>Register</title>
+{% endblock %}
+
+{% block body_block %}
+<div style="margin-bottom:60px;"></div>
+
+<div class="jumbotron">
+  <h1>Register</h1>
+</div>
+
+<div class="container">
+  {% if registered %}
+    <h1>Thank you for registering</h1>
+  {% else %}
+    <h2>Fill out the form : </h2>
+
+    <!-- Since we deal with media data in form, we need to have attr enctype -->
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ user_form.as_p }}
+      {{ profile_form.as_p }}
+      <input type="submit" name="" value="Register">
+    </form>
+  {% endif %}
+
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block title_block %}
+<title>Home</title>
+{% endblock %}
+
+{% block body_block %}
+<div style="margin-bottom:60px;"></div>
+
+<div class="jumbotron">
+  <!-- Tag user is available from views.py
+    user = authenticate(username=username,password=password) -->
+  {% if user.is_active %}
+    <h1> Hello {{user.username}}</h1>
+  {% else %}
+    <h1>Hello user!</h1>
+  {% endif %}
+</div>
+{% endblock %}

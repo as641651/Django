@@ -57,11 +57,11 @@ class FormName(forms.Form):
 from app3.models import SignUp
 
 class Form_SignUp(forms.ModelForm):
-    #Can have validators/other modifications here. Not Compulsory. 
+    #Can have validators/other modifications here. Not Compulsory.
     name = forms.CharField(label="",widget=forms.TextInput(attrs={'placeholder':'Name'}))
     #field name and form names should match
     class Meta:
         model = SignUp #Assign model
         fields = "__all__" # All fields in model
-        #fields = [exclude1,exclude2] #All model fields except
+        #exclude = [exclude1,exclude2] #All model fields except
         #fields = (include1,include2) #Only these model fields
