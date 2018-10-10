@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load my_extras %}
+
+{% block title_block %}
+<title>SSI - Register</title>
+{% endblock %}
+
+{% block body_block %}
+<div style="margin-bottom:60px;"></div>
+<div class="jumbotron">
+  <h1> Fill in details</h1>
+  <form method="post">
+    {% csrf_token %}
+    <p>{{form.errors}}</p>
+    <p>{{form.first_name | add_placeholder:"First Name" | add_class:"form-control col-4"}}</p>
+    <p>{{form.last_name | add_placeholder:"Last Name" | add_class:"form-control col-4"}}</p>
+    <p>{{form.username | add_placeholder:"UserName" | add_class:"form-control col-4"}}</p>
+    <p>{{form.password | add_placeholder:"Password" | add_class:"form-control col-4"}}</p>
+    <p>{{form.email | add_placeholder:"Email" | add_class:"form-control col-4"}}</p>
+    <input class="btn btn-primary" type="submit" value="Register">
+  </form>
+</div>
+{% endblock %}

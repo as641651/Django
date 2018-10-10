@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title_block %}
+<title>SSI - Login</title>
+{% endblock %}
+
+{% block body_block %}
+<div style="margin-bottom:60px;"></div>
+<div class="jumbotron">
+  <h1> Log in</h1>
+  <form method="post">
+    {% csrf_token %}
+    <input type="text" class="form-group form-control col-4" name="username" placeholder="Username">
+    <input type="password" class="form-group form-control col-4" name="password" placeholder="Password">
+    <input class="btn btn-primary" type="submit" value="Log in">
+  </form>
+</div>
+{% endblock %}

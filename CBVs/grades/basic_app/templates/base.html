@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    {% block title_block %}
+    {% endblock %}
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="{% url 'index' %}">Home</a>
+        <ul class="navbar-nav">
+          <li> <a class="nav-link" href="{% url 'admin:index' %}">Admin</a> </li>
+          <li> <a class="nav-link" href="{% url 'app:create' %}">Register</a> </li>
+          <li> <a class="nav-link" href="{% url 'app:list' %}">Students</a> </li>
+        </ul>
+
+        <!-- STUFF ON THE RIGHT -->
+        <div class="navbar-nav ml-auto">
+          {% if user.is_authenticated %}
+            <!-- Tag user is available from views.py
+              user = authenticate(username=username,password=password) -->
+            <a class="nav-item nav-link" href="{% url 'app:logout' %}">Logout</a>
+          {% else %}
+            <a class="nav-item nav-link" href="{% url 'app:login' %}">Login</a>
+          {% endif %}
+        </div> <!-- /.navbar-nav, right-hand content -->
+    </nav>
+
+    {% block body_block %}
+      <!-- Anything outside of this will be inherited -->
+    {% endblock %}
+
+
+  </body>
+</html>
+
+<!-- template
+
+{ extends 'base.html' %}
+{ block title_block %}
+<title>Register</title>
+{ endblock %}
+
+{ block body_block %}
+<div style="margin-bottom:60px;"></div>
+
+{ endblock %}
+
+-->

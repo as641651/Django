@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <ul class="navbar-nav">
+          <li> <a class="nav-link" href="/admin/">Admin</a> </li>
+          <li> <a class="nav-link" href="/">Simple CBV</a> </li>
+          <li> <a class="nav-link" href="/templateview/">Template View</a> </li>
+          <li> <a class="nav-link" href="/listview/">List View</a> </li>
+          <li> <a class="nav-link" href="/createview/">Create View</a> </li>
+        </ul>
+    </nav>
+
+    <h1>{{text}}</h1>
+
+    {% if schools %}
+      <h2>List of schools : </h2>
+      <ol>
+        {% for s in schools %}
+          <!-- id is an autogenetrated primary key -->
+         <li><a href="{{s.id}}">{{s.name}}, {{s.location}}</a></li>
+         <!-- the link becomes /listview/{id}-->
+         <!-- if href="/{{s.id}}", link becomes /{id} -->
+         <!-- the link should match with the detailsView in urls.py -->
+
+         <!-- 'students' is a related name in foreign key -->
+         {% for student in s.students.all %}
+           <p>{{student.name}}, {{student.age}} years old</p>
+         {% endfor %}
+
+        {% endfor %}
+      </ol>
+    {% endif %}
+
+    {% if school_detail %}
+      <h2>Schools details: </h2>
+      <p>Name : {{school_detail.name}}</p>
+      <p>Principal : {{school_detail.principal}}</p>
+      <p>Location : {{school_detail.location}}</p>
+      <h3>Students : </h3>
+      <!-- 'students' is a related name in foreign key -->
+      {% for student in school_detail.students.all %}
+        <p>{{student.name}}, {{student.age}} years old</p>
+      {% endfor %}
+      <!-- link to SchoolUpdateView -->
+      <p>
+        <a class="btn btn-warning" href="{% url 'update' pk=school_detail.pk %}">Update</a>
+        <a class="btn btn-danger" href="{% url 'delete' pk=school_detail.pk %}">Delete</a>
+      </p>
+    {% endif %}
+
+    {% if form %}
+      {% if not form.instance.pk %}
+        <!-- when entered from SchoolCreateView -->
+        <h1>Create school</h1>
+      {% else %}
+        <!-- when entered from SchoolUpdateView -->
+        <h1>Update school</h1>
+      {% endif %}
+      <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" class='btn btn-primary' value="Submit">
+      </form>
+    {% endif %}
+  </body>
+</html>

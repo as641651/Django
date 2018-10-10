@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load my_extras %}
+
+{% block title_block %}
+<title>SSI - Form</title>
+{% endblock %}
+
+{% block body_block %}
+<div style="margin-bottom:60px;"></div>
+<div class="jumbotron">
+    <h1> Update for {{student.candidate.first_name}}</h1>
+</div>
+<div class="container">
+  <form  method="post">
+    {% csrf_token %}
+    <p>{{form.grade | add_placeholder:"Grade" | add_class:"form-control col-1"}}</p>
+    <p>{{form.remark | add_placeholder:"Remark" | add_class:"form-control"}}</p>
+    <input type="submit" class="btn btn-warning" value="update">
+  </form>
+</div>
+<div class="container">
+
+
+</div>
+{% endblock %}

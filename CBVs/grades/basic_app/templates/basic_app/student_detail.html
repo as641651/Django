@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title_block %}
+<title>SSI - List</title>
+{% endblock %}
+
+{% block body_block %}
+<div style="margin-bottom:60px;"></div>
+<div class="jumbotron">
+    <h1> Summary for {{student.candidate.first_name}}</h1>
+</div>
+<div class="container">
+  <p>Grade : {{student.grade}}</p>
+  <p>Remark : {{student.remark}}</p>
+  <a href="{% url 'app:update_summary' pk=student.id %}" class="btn btn-warning">update</a>
+  <a href="#" class="btn btn-success">view marks</a>
+</div>
+<div class="container">
+
+
+</div>
+{% endblock %}
