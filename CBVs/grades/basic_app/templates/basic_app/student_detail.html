@@ -13,10 +13,43 @@
   <p>Grade : {{student.grade}}</p>
   <p>Remark : {{student.remark}}</p>
   <a href="{% url 'app:update_summary' pk=student.id %}" class="btn btn-warning">update</a>
-  <a href="#" class="btn btn-success">view marks</a>
 </div>
+
+<div style="margin-bottom:60px;"></div>
+
+<div class="jumbotron">
+  <h2>Marks</h2>
+</div>
+
 <div class="container">
-
-
+  <table class="table table-bordered text-center" >
+    <thead>
+      <th>Subject</th>
+      <th>Marks</th>
+    </thead>
+    <tr>
+      <td>Maths </td>
+      <td>{{student.marks.maths}}</td>
+    </tr>
+    <tr>
+      <td>Science </td>
+      <td>{{student.marks.science}}</td>
+    </tr>
+    <tr>
+      <td>English </td>
+      <td>{{student.marks.english}}</td>
+    </tr>
+    <tr>
+      <td>Tamil </td>
+      <td>{{student.marks.tamil}}</td>
+    </tr>
+    <tr>
+      <td>EVS </td>
+      <td>{{student.marks.evs}}</td>
+    </tr>
+  </table>
+  <a href="{% url 'app:update_marks' pk=student.marks.id %}" class="btn btn-warning">update</a>
 </div>
+<div style="margin-bottom:60px;"></div>
+
 {% endblock %}

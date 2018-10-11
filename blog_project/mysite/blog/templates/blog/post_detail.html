@@ -1,0 +1,56 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+  <div class="jumbotron">
+    <!-- loader is a style from codepen. this is probably overriden by bootstrap -->
+    <h1 class="posttitle loader">{{post.title}}</h1>
+    {% if post.published_date %}
+      <div class="date postdate">
+        {{post.published_date}}
+      </div>
+    {% else %}
+      <a class="btn btn-success" href="{% url 'post_publish' pk=post.pk%}">Publish</a>
+    {% endif %}
+  </div>
+
+  <div class="container">
+    <!-- safe translates html tags. linebreak identifies line breaks in text -->
+    <p class='postcontent'>{{post.text | safe | linebreaksbr }}</p>
+
+    {% if user.is_authenticated %}
+      <a href="{% url 'post_edit' pk=post.pk %}" class="btn btn-warning">
+        <span class="fa fa-pencil"></span>
+      </a>
+      <a href="{% url 'post_remove' pk=post.pk %}" class="btn btn-danger">
+        <span class="fa fa-remove"></span>
+      </a>
+    {% endif %}
+
+    <hr>
+
+    <a href="{% url 'add_comment_to_post' pk=post.pk %}" class="btn btn-primary btn-comment ">Add comment</a>
+
+    <div class="container">
+      <!-- sorting post.comments.all
+      ref : https://stackoverflow.com/questions/6540032/sorting-related-items-in-a-django-template
+      { for comment in post.comments.all|dictsort:"-create_date" } -->
+      {% for comment in post.comments.all|dictsortreversed:"create_date" %}
+      <br>
+          {% if user.is_authenticated or comment.approved_comment %}
+
+                  <p>{{ comment.text|safe|linebreaks }}</p>
+                  <p>Posted by: <strong>{{ comment.author }}</strong></p>
+                  {{ comment.create_date }}
+                  {% if not comment.approved_comment %}
+                      <a class="btn btn-danger" href="{% url 'comment_remove' pk=comment.pk %}"><span class="fa fa-remove"></span></a>
+                      <a class="btn btn-success" href="{% url 'comment_approve' pk=comment.pk %}"><span class="fa fa-check"></span></a>
+                  {% endif %}
+
+          {% endif %}
+          <!-- if the loop is over empty list -->
+      {% empty %}
+          <p>No comments posted.</p>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}

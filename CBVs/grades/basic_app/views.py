@@ -24,14 +24,20 @@ class UserFormView(FormView):
         user = form.save()
         user.set_password(user.password)
         user.save()
-        
+
+        #create marksForm
+        marksform = forms.MarksForm(self.request.POST)
+        marks = marksform.save(commit=False)
+        marks.candidate = user
+        marks.save()
+
         #create student form
         studentform = forms.StudentForm(self.request.POST)
         student = studentform.save(commit=False)
         student.candidate = user
+        student.marks = marks
+
         student.save()
-
-
 
         return super().form_valid(form)
 
@@ -79,3 +85,10 @@ class UpdateStudentSummary(UpdateView):
         #print(context)
         #has context 'student' and 'form'
         return context
+
+class UpdateStudentMarks(UpdateView):
+    model = models.StudentMarks
+    fields = ('maths','science','english','tamil','evs')
+    #no need for absolute url if this is defined
+    #print("Model :" , model.__dict__)
+    #success_url = reverse_lazy("app:details",kwargs={'pk':cant_get})

@@ -10,4 +10,5 @@ urlpatterns = [
         path("list/",views.StudentsListView.as_view(),name='list'),
         path('summary/<int:pk>/',views.StudentsSummaryView.as_view(),name='details'),
         path('update/<int:pk>/',views.UpdateStudentSummary.as_view(),name='update_summary'),
+        path('marks/<int:pk>/',views.UpdateStudentMarks.as_view(),name='update_marks'),
 ]

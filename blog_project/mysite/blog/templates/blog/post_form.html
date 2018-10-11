@@ -1,0 +1,17 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+  <div style="margin-bottom:60px;"></div>
+  <h1>New post</h1>
+
+  <form method="POST" class="post-form">
+  {% csrf_token %}
+  {{form.as_p}}
+  <button type="submit" class="save btn btn-default">Save</button>
+  </form>
+
+  <!-- This is needed because we added 'editable class' in form.text (see PostForm class in forms.py) -->
+  <script>var editor = new MediumEditor('.editable');</script>
+
+{% endblock %}
