@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+<!-- using django-bootstrap -->
+{% load bootstrap4 %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1>Log in</h1>
+</div>
+
+<div class="container">
+  <form method="post">
+    {% csrf_token %}
+    <!-- loading bootstrap styles -->
+    {% bootstrap_form form %}
+    <input type="submit" class="btn btn-primary" value="Log in">
+  </form>
+</div>
+
+{% endblock %}
