@@ -24,6 +24,7 @@ urlpatterns = [
     #No idea why he added this
     #path('accounts/',include('django.contrib.auth.urls')),
     path('groups/',include('groups.urls',namespace="groups")),
+    path('posts/',include('posts.urls',namespace="posts")),
     path('loginsuccess/',views.Loginsuccess.as_view(),name="loginsuccess"),
     path('thanks/',views.Thanks.as_view(),name="thanks"),
 ]

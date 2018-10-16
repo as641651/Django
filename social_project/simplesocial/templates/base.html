@@ -20,14 +20,15 @@
       <div class="navbar-nav">
         {% if user.is_authenticated %}
         <!-- checks if user can log in to admin site -->
-        {% if  user.is_staff %}
-        <a class="nav-item nav-link" href="/admin">Admin</a>
-        {% endif %}
-        <a class="nav-item nav-link" href="#">Post</a>
+          {% if  user.is_staff %}
+            <a class="nav-item nav-link" href="/admin">Admin</a>
+          {% endif %}
+        <a class="nav-item nav-link" href="{% url "posts:all" %}">Posts</a>
         <a class="nav-item nav-link" href="{% url "groups:all" %}">Groups</a>
         <a class="nav-item nav-link" href="{% url "groups:create" %}">Create Group</a>
         {% else %}
-        <a class="nav-item nav-link" href="#">Groups</a>
+        <a class="nav-item nav-link" href="{% url "posts:all" %}">Posts</a>
+        <a class="nav-item nav-link" href="{% url "groups:all" %}">Groups</a>
         {% endif %}
       </div>
       <div class="navbar-nav ml-auto">
@@ -45,5 +46,9 @@
 
     {% block content %}
     {% endblock %}
+
   </body>
+  <canvas id="canvas"></canvas>
+  <script src="{% static "js/master.js" %}" type="text/javascript" ></script>
+
 </html>

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1>Posts</h1>
+  {% if user.is_authenticated %}
+  <a href="{% url "posts:create" %}" class="btn btn-success btn-large">Create</a>
+  {% endif %}
+</div>
+<div class="container">
+  {% if user.is_authenticated %}
+    <div class="card card-with-shadow">
+      <div class="content">
+        <h5 class="title">Your Groups</h5>
+        <ul class="list-unstyled">
+          <!-- in groups models.py we registered template which allows us to get related names this way -->
+          <!-- each object is a groupmemeber  -->
+          <!-- {% for mem in request.user.user_group.all %}
+            <li class="group li-with-bullet"> <a href="#">{{mem}}</a></li>
+          {% endfor %} -->
+          {% for mem in groups_of_user.all %}
+            <li class="group li-with-bullet"> <a href="{% url "groups:single" slug=mem.slug %}">{{mem}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+  </div>
+  {% endif %}
+
+  {% for post in post_list %}
+    <div class="card card-with-shadow">
+        {% include "posts/_post.html" %}
+    </div>
+  {% endfor %}
+</div>
+
+</div>
+{% endblock %}

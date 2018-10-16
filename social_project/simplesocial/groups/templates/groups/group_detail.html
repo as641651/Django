@@ -4,9 +4,9 @@
   <h1>{{group.name}}</h1>
   <h6>Members count : {{group.members.count}}</h6>
   {% if user in group.members.all %}
-    <a href="#" class="btn btn-danger">Leave</a>
+    <a href="{% url "groups:leave" slug=group.slug %}" class="btn btn-danger">Leave</a>
   {% else %}
-    <a href="#" class="btn btn-warning">Join</a>
+    <a href="{% url "groups:join" slug=group.slug %}" class="btn btn-warning">Join</a>
   {% endif %}
   <div style="float:right;">{{group.description_html|safe}}</div>
 </div>
@@ -16,7 +16,7 @@
     <h2>No posts in this group</h2>
   {% else %}
     {% for post in group.posts.all %}
-      <!-- { include "posts/_post.html" %} -->
+      {% include "posts/_post.html" %}
     {% endfor %}
   {% endif %}
 </div>
