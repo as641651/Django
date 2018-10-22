@@ -1,0 +1,6 @@
+`Community Packages (4)[39m /home/sankaran/.atom/packages
+├── atom-django@0.3.2
+├── autoclose-html@0.23.0
+├── autocomplete-python@1.10.12
+└── platformio-ide-terminal@2.7.0
+
