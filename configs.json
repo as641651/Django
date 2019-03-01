@@ -1,0 +1,86 @@
+{
+    "00_Virtual environment.ipynb": {
+        "code_url": "",
+        "page_id": 301,
+        "page_name": "00_Virtual environment",
+        "pdf": false
+    },
+    "01_Django_display_static_content.ipynb": {
+        "code_url": "https://github.com/as641651/Django-Basic/tree/master/01_Django_display_static_content",
+        "page_id": 302,
+        "page_name": "01_Django_display_static_content",
+        "pdf": false
+    },
+    "02_Django_models.ipynb": {
+        "code_url": "https://github.com/as641651/Django-Basic/tree/master/02_Django_models",
+        "page_id": 303,
+        "page_name": "02_Django_models",
+        "pdf": false
+    },
+    "03_Django_Forms_and_validating_input_data.ipynb": {
+        "code_url": "https://github.com/as641651/Django-Basic/tree/master/03_Django_Forms_and_validating_input_data",
+        "page_id": 304,
+        "page_name": "03_Django_Forms_and_validating_input_data",
+        "pdf": false
+    },
+    "04_Django_templates.ipynb": {
+        "code_url": "https://github.com/as641651/Django-Basic/tree/master/04_Django_templates",
+        "page_id": 305,
+        "page_name": "04_Django_templates",
+        "pdf": false
+    },
+    "05_User_authentication.ipynb": {
+        "code_url": "https://github.com/as641651/Django-Basic/tree/master/05_User_authentication",
+        "page_id": 306,
+        "page_name": "05_User_authentication",
+        "pdf": false
+    },
+    "06_Class_Based_Views.ipynb": {
+        "code_url": "https://github.com/as641651/Django-Basic/tree/master/06_Class_Based_Views",
+        "page_id": 307,
+        "page_name": "06_Class_Based_Views",
+        "pdf": false
+    },
+    "07_Modifying_admin_page.ipynb": {
+        "code_url": "https://github.com/as641651/Django-Basic/tree/master/07_Modifying_admin_page",
+        "page_id": 308,
+        "page_name": "07_Modifying_admin_page",
+        "pdf": false
+    },
+    "08_DebugToolbar.ipynb": {
+        "code_url": "",
+        "page_id": 309,
+        "page_name": "08_DebugToolbar",
+        "pdf": false
+    },
+    "09_Blog_project.ipynb": {
+        "code_url": "https://github.com/as641651/Django-Basic/tree/master/09_Blog_project",
+        "page_id": 310,
+        "page_name": "09_Blog_project",
+        "pdf": false
+    },
+    "10_Social_project.ipynb": {
+        "code_url": "https://github.com/as641651/Django-Basic/tree/master/10_Social_project",
+        "page_id": 311,
+        "page_name": "10_Social_project",
+        "pdf": false
+    },
+    "author": "Aravind Sankaran",
+    "dir_path": "/home/sankaran/exercise/ML/Django-Basic/",
+    "dir_static": "files",
+    "file_list": [
+        "00_Virtual environment.ipynb",
+        "01_Django_display_static_content.ipynb",
+        "02_Django_models.ipynb",
+        "03_Django_Forms_and_validating_input_data.ipynb",
+        "04_Django_templates.ipynb",
+        "05_User_authentication.ipynb",
+        "06_Class_Based_Views.ipynb",
+        "07_Modifying_admin_page.ipynb",
+        "08_DebugToolbar.ipynb",
+        "09_Blog_project.ipynb",
+        "10_Social_project.ipynb"
+    ],
+    "module_id": 300,
+    "module_name": "Django-Basic"
+}
